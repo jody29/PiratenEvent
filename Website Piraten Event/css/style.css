@@ -1,0 +1,244 @@
+html {
+    scroll-behavior: smooth;
+    background-color: black;
+}
+
+body {
+    margin: 0;
+}
+
+/*Alles vanaf hier is voor de header*/
+
+header section {
+    position: absolute;
+    top: 35%;
+    left: 27%;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+header h1 {
+    font-size: 50pt;
+    font-family: fantasy;
+    margin: 0;
+}
+
+header {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+header h2 {
+    font-size: 30pt;
+    font-family: monospace;
+    margin: 0;
+}
+
+header img {
+    width: 100vw;
+    height: 100vh; 
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li a {
+    padding: 20px;
+    font-size: 15pt;
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+nav {
+    background-color: black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 4px 0 0 rgba(68, 68, 68, 0.8);
+    z-index: 100;
+}
+
+/*Alles vanaf hier is Article Het Event*/
+
+article#hetevent {
+    text-align: justify;
+    background-color: white;
+    margin: 0;
+     
+}
+
+article h1 {
+    margin: 0 60px;
+    padding: 70px 0 5px;
+    font-size: 25pt;
+    font-family: fantasy;
+}
+
+article h2 {
+    margin: 25px 60px 0;
+    font-family: fantasy;
+    font-size: 17pt;
+    font-weight: 600;
+}
+
+article p {
+    font-family: sans-serif;
+    margin: 10px 60px;
+}
+
+article ul {
+    font-family: sans-serif;
+    padding: 10px 70px 60px;
+    margin: 0;
+}
+
+article li {
+    padding-bottom: 5px;
+}
+
+/*Stijl van article over ons*/
+
+article#overons {
+    background-color: gainsboro;
+    color: black;
+}
+
+#overons section {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 60px 0px;
+}
+
+.domin {
+    width: 30%;
+    height: 400px;
+}
+
+.denise {
+    max-width: 40%;
+    max-height: 400px;
+}
+
+#overons section h2 {
+    margin: 0;
+    padding-bottom: 60px;
+}
+
+/*Article contact*/
+
+#contact h2 {
+    margin-top: 10px;
+}
+
+#contact {
+    background-color: white;
+}
+
+iframe {
+    padding: 0 60px 60px;
+}
+
+/*footer*/
+
+footer {
+    background-color: dimgray;
+    margin: 0;
+    padding: 30px 0 0;
+}
+
+footer section {
+    display: flex;
+    justify-content: space-around;
+    margin: 60px;   
+}
+
+.action {
+    height: 100px;
+    width: 100px;
+    padding: 0 20px;
+}
+
+.appie {
+    width: 100px;
+    height: 100px;
+    padding: 0 20px 0 40px;
+}
+
+.onesta {
+    width: 500px;
+    padding: 0 20px;
+}
+
+.zeeman {
+    width: 150px;
+    height: 100px;
+    padding: 0 0px;
+}
+
+.lidl {
+    width: 180px;
+    height: 100px;
+    padding: 0 0px;
+}
+
+.hema {
+    width: 150px;
+    height: 100px;
+    padding: 0 0px;
+}
+
+.ksp {
+    width: 150px;
+    height: 100px;
+    padding: 0 0px; 
+}
+
+.janwit {
+    width: 500px;
+    padding: 0 20px; 
+}
+
+.horn {
+    width: 500px;
+    height: 150px;
+    padding: 0 20px; 
+}
+
+.state {
+    width: 500px;
+    height: 150px;
+    padding: 0 20px;    
+}
+
+.feest {
+    width: 500px;
+    padding: 0 20px;   
+}
+
+footer p {
+    display: flex;
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 10px 5px;
+}
+
+footer h1 {
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+}
+
+
+
+
+
